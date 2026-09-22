@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 CSS Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+
+        <h1 id="heading">Welcome to My Webpage</h1>
+
+        <p>MY CSS Web Page</p>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+       
+        <button id="themeToggle">Switch Theme</button>
+
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>ABOUT US</h2>
+            <p>Welcome</p>
+        </section>
+
+
+        <section id="service">
+            <h2>SERVICE</h2>
+            <p>Welcome</p>
+        </section>
+
+
+       
+        <section id="todo">
+
+            <h2>TO-DO LIST</h2>
+
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a task"
+            >
+
+            <button id="addTask">Add Task</button>
+
+            <ul id="taskList"></ul>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>CONTACT</h2>
+            <p>Welcome</p>
+
+            <form id="contactForm">
+
+                <label for="name">Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    required
+                ></textarea>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <div id="modal" class="modal">
+
+        <div class="modal-content">
+
+            <p id="modalMessage"></p>
+
+            <button id="closeModal">Close</button>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <p>&copy; 2026 GWYNETH FAY.COMPANY</FAY></p>
+
+    </footer>
+
+</body>
+</html>
