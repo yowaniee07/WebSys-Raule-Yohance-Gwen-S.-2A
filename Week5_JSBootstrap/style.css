@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e8f0fe;
+    color: #333;
+}
+.box {
+    width: 400px;
+    margin: 90px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #e8f0fe;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    border: 3px solid #2563eb;
+}
+
+/* =========================
+   ABOUT US
+========================= */
+
+.about-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 40px 0;
+    background-color: transparent;
+}
+
+.about-text {
+    padding: 20px;
+}
+
+.about-text h2 {
+    color: #0c1018;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.about-text .btn {
+    background-color: #2563eb;
+    border-color: #2563eb;
+    padding: 10px 25px;
+}
+
+.about-image {
+    width: 200%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/* =========================
+   SERVICES
+========================= */
+
+.services-container {
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e8f0fe;
+   
+}
+
+.services-container > h3 {
+    text-align: center;
+    color: #111213;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    height: 100%;
+    background-color: #e8f0fe;
+    border: 2px solid #0e0f11;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.service-card .card-img-top {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.service-card .card-body {
+    text-align: center;
+    padding: 30px;
+}
+
+.service-card .card-title {
+    color: #0c1018;
+    font-size: 22px;
+}
+
+.service-card .card-text {
+    color: #555;
+    font-size: 16px;
+}
+
+.service-card .btn {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.service-card .btn:hover {
+    background-color: #0f0f14;
+    border-color: #0a0a11;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #011e38;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+
+    header,
+    footer {
+        text-align: left;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 3px 0;
+    }
+
+}
