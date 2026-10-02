@@ -8,7 +8,7 @@ html {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #e8f0fe;
     color: #222;
     transition: 0.3s;
 }
@@ -198,118 +198,38 @@ body {
     width: 280px;
 }
 
+body.black-theme {
+    background-color: #000;
+    color: #fff;
+}
+
+body.white-theme {
+    background-color: #fff;
+    color: #000;
+}
+
 
 /* ================= FOOTER ================= */
 
 footer {
-    background-color: #212529;
-    color: white;
-
-    padding: 35px 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #011e38;
+    color: #fff;
 }
 
-
-footer p {
-    color: #ccc;
-}
-
-
-.footer-links {
-    margin: 15px 0;
-}
-
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
-
-
-/* ================= DARK MODE ================= */
-
-body.dark-mode {
-    background-color: #1e1e1e;
-    color: white;
-}
-
-
-body.dark-mode .hero {
-    background-color: #252525;
-}
-
-
-body.dark-mode .hero p {
-    color: #ccc;
-}
-
-
-body.dark-mode .local-storage-card,
-body.dark-mode .feature-card {
-    background-color: #2b2b2b;
-    color: white;
-    border-color: #555;
-}
-
-
-body.dark-mode .form-control {
-    background-color: #333;
-    color: white;
-    border-color: #666;
-}
-
-
-body.dark-mode .form-control::placeholder {
-    color: #bbb;
-}
-
-
-body.dark-mode .text-muted {
-    color: #bbb !important;
-}
-
-
-body.dark-mode #live-map {
-    border-color: #555;
-}
-
-
-/* ================= MOBILE ================= */
 
 @media (max-width: 768px) {
 
-    .hero h1 {
-        font-size: 32px;
+    header,
+    footer {
+        text-align: left;
+        padding: 10px;
     }
 
-
-    .hero p {
-        font-size: 16px;
-    }
-
-
-    .local-storage-card {
-        width: 100%;
-    }
-
-
-    .welcome-message {
-        font-size: 24px;
-    }
-
-
-    .feature-card.active {
-        min-height: 350px;
-    }
-
-
-    #live-map {
-        height: 220px;
+    nav ul li {
+        display: block;
+        margin: 3px 0;
     }
 
 }
